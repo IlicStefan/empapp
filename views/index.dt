@@ -1,0 +1,17 @@
+extends layout
+block maincontent
+    h2 The Lorem Ipsum Company
+    div.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nam nec urna arcu. Quisque eleifend posuere vestibulum.
+        In sed magna mauris. Phasellus bibendum ligula et placerat
+        vulputate. In non suscipit lectus, a laoreet odio. Donec
+        at sapien eu nisi porta condimentum. Morbi non varius ex,
+        nec luctus nisl. Aenean varius dui quis arcu auctor luctus.
+        Integer efficitur ornare massa, ac suscipit enim sagittis et.
+        Proin vestibulum tellus in ipsum ultrices, sed imperdiet
+        sapien euismod. Praesent vel facilisis mauris. Proin finibus
+        congue tellus, non varius ante. Nullam tincidunt dolor felis.
+        Pellentesque non luctus tellus. Curabitur et sapien at justo
+        fringilla feugiat et a erat.
+        <br /><br />

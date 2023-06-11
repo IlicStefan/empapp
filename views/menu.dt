@@ -1,0 +1,26 @@
+div.menu-item
+    a.item-link(href="/") Home
+div.menu-item
+    a.item-link(href="all_employees") All employees
+div.menu-item
+    a.item-link(href="#find_employee") Find employee
+div.menu-item
+    a.item-link(href="add_employee") Add employee
+div.menu-item
+    a.item-link.item-link-right(href="#login") Login
+div#login.modal-form
+    div.modal-form-wrapper-login
+        form.modal-form-grid(method="post", action="login")
+            input.text-control(name="email", type="email", placeholder="email address")
+            input.text-control(name="password", type="password", placeholder="password")
+            input#but-reset(type="reset", value="Clear")
+            input#but-submit(type="submit", value="Submit")
+        a.close(href="#close") Cancel
+div#find_employee.modal-form
+    div.modal-form-wrapper-find_employee
+        form.modal-form-grid(method="post", action="find_employee")
+            input.text-control(name="fname", type="text", placeholder="First name", required)
+            input.text-control(name="lname", type="text", placeholder="Last name", required)
+            input#but-reset(type="reset", value="Clear")
+            input#but-submit(type="submit", value="Submit")
+        a.close(href="#close") Cancel

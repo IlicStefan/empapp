@@ -1,0 +1,5 @@
+extends layout
+block maincontent
+    h2 The About Us page
+    div.
+        <h3>This is the About Us page.</h3>

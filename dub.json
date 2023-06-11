@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Stefan"
+	],
+	"copyright": "Copyright © 2023, Stefan",
+	"dependencies": {
+		"vibe-d": "~>0.9"
+	},
+	"description": "A simple vibe.d server application.",
+	"license": "proprietary",
+	"name": "empapp"
+}

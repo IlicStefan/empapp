@@ -1,0 +1,5 @@
+extends layout
+block maincontent
+    h2 The Contact Us page
+    div.
+        <h3>This is the Contact Us page.</h3>

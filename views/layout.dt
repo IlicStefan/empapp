@@ -1,0 +1,13 @@
+doctype 5
+html
+    head
+        title Employee Timekeeping System
+        include styles.dt
+    body
+        div.container
+            div.menu
+                include menu.dt
+            div.content
+                block maincontent
+            div.footer
+                include footer.dt
